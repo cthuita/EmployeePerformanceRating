@@ -4,7 +4,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 
 # Load the saved model
-performance_rating_predictor = pickle.load(open("saved files/performance_rating_prediction_model.pkl", 'rb'))
+performance_rating_predictor = pickle.load(open(performance_rating_prediction_model.pkl', 'rb'))
 
 # Streamlit app title
 st.title("Employee Performance Rating Predictor")
